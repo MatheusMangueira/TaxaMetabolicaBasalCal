@@ -16,4 +16,6 @@
   <li>Nivel de atividade fisíca que você se encontra. </li>
 </ul>
 
+<h4>Imagem da calculadora: </h4>
+
 ![caltaxa](https://user-images.githubusercontent.com/98111351/163510748-784138d3-1906-4dee-a4a4-916df1f080e9.jpg)
