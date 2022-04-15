@@ -14,19 +14,19 @@ body{
       
 }
 
-.foto_inicio{
+.photoStart{
     background-image: url(./img/nutri.jpg);
     background-size: cover;
     width: 100%;
     height: 50vh;
 }
 
-.conteudo{
+.content{
     margin: 40px;
     width: 60%;
 
 }
-.conteudo h1{
+.content h1{
     text-align: center;
     font-size: 3.3rem;
     text-transform: uppercase;
@@ -34,19 +34,19 @@ body{
     margin-bottom: 30px;
 }
 
-.conteudo h2{
+.content h2{
     text-align: start;
     margin: 20px 0 20px 0;
     font-size: 2rem;
     padding: 10px 0 10px 0; 
 }
 
-.conteudo p{
+.content p{
     font-size: 1rem;
     margin-bottom: 10px;
 }
 
-.lista{
+.list{
     font-size: 1rem;
     list-style:decimal;
     text-align: start;
@@ -60,7 +60,7 @@ body{
 }
 
 
-.logo {
+.soon {
     font-size: 1.5rem;
     margin: 40px;
     color: #00FFA3;
@@ -72,14 +72,14 @@ h4{
     color: #00FFA3;
 }
 
-.conteiner{
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.principal{
+.mainCalculator{
    display: flex;
    align-items: center;
    flex-direction: column;
@@ -87,7 +87,7 @@ h4{
    width: 504px;
 }
 
-.sexo_input{
+.style_input{
     width: 100%;
     margin-bottom: 10px;
     display: flex;
@@ -98,7 +98,7 @@ h4{
    
 }
 
-.sexo_input select{
+.style_input select{
     padding: 10px;
     background:#171717;
     border: solid 2px #4900FF;
@@ -109,7 +109,7 @@ h4{
     
 }
 
-.sexo_input input{
+.style_input input{
     padding: 10px;
     background:none;
     border: solid 2px #4900FF;
@@ -150,7 +150,7 @@ h3{
     margin: 10px;
 }
 
-.resultado{
+.result{
     padding: 15PX;
     margin: 10px;
     width: 100%;
@@ -158,11 +158,11 @@ h3{
     border-bottom:solid 3px #4900FF ;
 }
 
-.resultado span{
+.result span{
     color: #00FFA3;
 }
 
-.resultado p{
+.result p{
     margin-bottom: 20px;
 }
 
@@ -179,7 +179,7 @@ h3{
     margin: 20px 0;
 }
 
-.chave_pix{
+.keyNome{
     margin: 20px 0 20px;
     color: #00FFA3;
     
@@ -196,11 +196,11 @@ margin-bottom: 20px;
     color: #fff;
 }
 
-.feito{
+.rights{
     margin-bottom: 30px;   
 }
 
-.feito a{
+.rights a{
     text-decoration: none;
     color: rgba(141, 140, 140, 0.461);
     cursor: pointer;
@@ -209,37 +209,37 @@ margin-bottom: 20px;
 
 @media(max-width: 600px){
 
-    .foto_inicio{
+    .photoStart{
         display: none;
     }
 
-    .conteudo h1{
+    .content h1{
         font-size: 2rem;
     }
 
-    .conteudo h2 {
+    .content h2 {
         font-size: 1.5rem;
     }
 
-    .principal{
+    .mainCalculator{
     width: 90%;
     }
 
-    .logo{
+    .soon{
     font-size: 1.5rem;
     width: 50% ;
     }
-    .sexo_input{
+    .style_input{
         font-size: 1rem;
         width: 50% ;
     }
     
-    .sexo_input input{
+    .style_input input{
       
         width: 40% ;
     } 
 
-    .sexo_input select{
+    .style_input select{
         width: 100% ;
     }
 
@@ -248,7 +248,7 @@ margin-bottom: 20px;
 
     }
 
-    .resultado{
+    .result{
         font-size:1rem;
         width: 50% ;
     }
@@ -261,7 +261,7 @@ margin-bottom: 20px;
         font-size: 1.2rem;
     }
 
-    .chave_pix {
+    .keyNome {
         font-size: 0.8rem;
     }
 
@@ -274,7 +274,7 @@ margin-bottom: 20px;
 @media(max-width: 360px){
 
 
-    .logo{
+    .soon{
         display: none;
     }
 
