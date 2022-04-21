@@ -17,13 +17,35 @@ body{
 .photoStart{
     background-image: url(./img/nutri.jpg);
     background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
     width: 100%;
     height: 50vh;
+}
+
+.claro_escuro{
+    padding: 10px;
+    border: 1px solid #2d2d2d;
+    background-color: #000000;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100px;
+    
+}
+
+.claro_{
+    background-color: #fff;
+    color: #000000;
+    
 }
 
 .content{
     margin: 40px;
     width: 60%;
+    
 
 }
 .content h1{
@@ -117,8 +139,19 @@ h4{
     font-size: 1.2rem;
     margin: 10px 0 10px;
     width: 500px;
-    
 }
+
+#age{
+    background-color: #171717;
+}
+#height{
+    background-color: #171717;
+}
+#Weight{
+    background-color: #171717;
+
+}
+
 
 .bt {
     display: flex;

@@ -32,3 +32,26 @@ btn.addEventListener("click", function () {
     result.innerHTML = finalResult;
 
 })
+
+
+const principal = document.querySelector("#color");
+const btn_claro = document.querySelector("#claro");
+const btn_escuro = document.querySelector("#escuro");
+const h1 = document.querySelector("h1");
+
+
+
+function claro(){
+   
+    principal.style.backgroundColor = "#fff";
+    principal.style.color = "#000"
+    h1.style.color = "#000"
+
+}
+
+function escuro(){
+    principal.style.backgroundColor = "#171717";
+    principal.style.color = "#fff"
+    h1.style.color = "#fff"
+
+}
