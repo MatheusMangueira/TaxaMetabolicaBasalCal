@@ -39,8 +39,6 @@ const btn_claro = document.querySelector("#claro");
 const btn_escuro = document.querySelector("#escuro");
 const h1 = document.querySelector("h1");
 
-
-
 function claro(){
    
     principal.style.backgroundColor = "#fff";
