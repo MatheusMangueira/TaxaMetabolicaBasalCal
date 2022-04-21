@@ -54,4 +54,4 @@ function escuro(){
     principal.style.color = "#fff"
     h1.style.color = "#fff"
 
-}
+}  
